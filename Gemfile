@@ -49,7 +49,7 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 gem 'pg'
-gem 'pg_ha_migrations', '~> 1.5'
+gem 'pg_ha_migrations', '~> 1.5', github: 'brettjnorris/pg_ha_migrations'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
